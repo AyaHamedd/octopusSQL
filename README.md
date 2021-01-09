@@ -26,7 +26,7 @@ To start using the database engine:
 # Tutorial
 
 You can find a tutorial on using the engine in the following file : 
-[Tutorial.pdf](https://github.com/AyaHamedd/octopus/blob/main/OctopusDBTutorial.pdf).
+[octopusSQL TUTORIAL.pdf](https://github.com/AyaHamedd/octopusSQL/blob/main/OctopusDB-using%20SQL%20Queries%20tutorial.pdf).
 
 
 ## Features

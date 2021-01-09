@@ -1,6 +1,6 @@
 # octopusSQL
 
-![Image](https://github.com/AyaHamedd/OctopusDB/blob/main/images/octopusdb.jpeg)
+![Image](https://github.com/AyaHamedd/octopusSQL/blob/main/Logo.png)
 
 # What is OctopusDB ?
 
@@ -23,8 +23,13 @@ To start using the database engine:
 `$bash octopusSQL.sh`
 
 
+# Tutorial
 
-# Features
+You can find a tutorial on using the engine in the following file : 
+[Tutorial.pdf](https://github.com/AyaHamedd/octopus/blob/main/OctopusDBTutorial.pdf).
+
+
+## Features
 - Supports Int and text datatypes
    - INT : -2147483648 to 2147483647
    - TEXT : Any kind of text data including spaces.
@@ -35,7 +40,7 @@ To start using the database engine:
 
 
 
-# Database Architecture
+## Database Architecture
 The main directory that holds all databases is called octopusdb, located in your home directory. Each database has a directory under  octopusdb with its name. Then each database has two directories;
 - data : Contains tables data files , where records of each table is stored.
 - metadata : Contains tables metadata , where columns, datatypes and constrains are stored.
@@ -43,17 +48,11 @@ The main directory that holds all databases is called octopusdb, located in your
 ![Image1](https://github.com/AyaHamedd/OctopusDB/blob/main/images/dbArchitectue.png)
 
 
-
-# Software Architecture
+### Software Architecture
 The main script that receives inputs from user is octopus. Each command has its own script. Octopus starts calling the corresponding script based on user’s requirements.
 
 ![Image2](https://github.com/AyaHamedd/OctopusDB/blob/main/images/swArchitecture.png)
 
-
-# Tutorial
-
-You can find a tutorial on using the engine in the following file : 
-[Tutorial.pdf](https://github.com/AyaHamedd/octopus/blob/main/OctopusDBTutorial.pdf).
 
 
 ## Platforms
